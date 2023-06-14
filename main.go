@@ -5,23 +5,23 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"net/http"
 	"os"
 	"strings"
-	"net/http"
 	"time"
 
 	"io/ioutil"
 
 	"github.com/gorilla/mux"
 
-	"github.com/diegovillarino/go/tree/victor_user/models"
-	s "github.com/diegovillarino/go/tree/victor_user/services/user.services"
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/diegovillarino/go/tree/victor_user/awsgo"
-	"github.com/diegovillarino/go/tree/victor_user/database"
-	"github.com/diegovillarino/go/tree/victor_user/handlers"
-	"github.com/diegovillarino/go/tree/victor_user/secretmanager"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/awsgo"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/database"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/handlers"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/models"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/secretmanager"
+	s "github.com/vwaskievich/hola-go/tree/victor_aws_lambda/services/user.services"
 )
 
 func EjecutoLambda(ctx context.Context, request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
@@ -89,7 +89,7 @@ func EjecutoLambda(ctx context.Context, request events.APIGatewayProxyRequest) (
 	} else {
 		fmt.Print("Paso por el lambda ok")
 		return respAPI.CustomResp, nil
-	}	
+	}
 }
 
 func getUsers(w http.ResponseWriter, r *http.Request) {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/diegovillarino/go/tree/victor_user/jwt"
-	"github.com/diegovillarino/go/tree/victor_user/models"
-	"github.com/diegovillarino/go/tree/victor_user/routers"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/jwt"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/models"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/routers"
 )
 
 func Manejadores(ctx context.Context, request events.APIGatewayProxyRequest) models.RespApi {

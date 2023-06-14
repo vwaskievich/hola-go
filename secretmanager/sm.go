@@ -6,8 +6,8 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
-	"github.com/diegovillarino/go/tree/victor_user/awsgo"
-	"github.com/diegovillarino/go/tree/victor_user/models"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/awsgo"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/models"
 )
 
 func GetSecret(secretName string) (models.Secret, error) {

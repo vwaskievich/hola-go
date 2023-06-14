@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/diegovillarino/go/tree/victor_user/database"
-	"github.com/diegovillarino/go/tree/victor_user/models"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/database"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/models"
 )
 
 /*ModificarPerfil modifica el perfil de usuario */

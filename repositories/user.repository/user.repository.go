@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/diegovillarino/go/tree/victor_user/database"
-	m "github.com/diegovillarino/go/tree/victor_user/models"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/database"
+	m "github.com/vwaskievich/hola-go/tree/victor_aws_lambda/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

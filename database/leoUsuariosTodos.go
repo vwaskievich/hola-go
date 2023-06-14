@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/diegovillarino/go/tree/victor_user/models"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

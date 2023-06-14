@@ -4,9 +4,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/diegovillarino/go/tree/victor_user/database"
-	"github.com/diegovillarino/go/tree/victor_user/models"
 	jwt "github.com/golang-jwt/jwt/v5"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/database"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/models"
 )
 
 /*Email valor de Email usado en todos los EndPoints */

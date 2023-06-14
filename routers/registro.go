@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/diegovillarino/go/tree/victor_user/database"
-	"github.com/diegovillarino/go/tree/victor_user/models"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/database"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/models"
 )
 
 /*Registro es la funcion para crear en la BD el registro de usuario */

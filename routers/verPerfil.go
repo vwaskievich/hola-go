@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/diegovillarino/go/tree/victor_user/database"
-	"github.com/diegovillarino/go/tree/victor_user/models"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/database"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/models"
 )
 
 func VerPerfil(request events.APIGatewayProxyRequest) models.RespApi {

@@ -1,4 +1,4 @@
-module github.com/diegovillarino/go/tree/victor_user
+module github.com/vwaskievich/hola-go/tree/victor_aws_lambda
 
 go 1.20
 

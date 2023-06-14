@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/diegovillarino/go/tree/victor_user/models"
+	"github.com/vwaskievich/hola-go/tree/victor_aws_lambda/models"
 	"golang.org/x/crypto/bcrypt"
 )
 
